@@ -7,6 +7,7 @@
   document.querySelector("body").style.color = buttonClick ? "rgb(255, 255, 255)" : "rgb(46, 41, 78)";
   document.querySelector("button").style.color = buttonClick ? "rgb(46, 41, 78)" : "rgb(255, 255, 255)";
   buttonClick = !buttonClick;
+  document.querySelector("body").style.transition = "background-color 200ms ease-in-out";
   };
 
 </script>
